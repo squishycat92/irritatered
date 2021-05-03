@@ -9,7 +9,8 @@
     "DrawableHelperAccessor",
     "SplashScreenMixin",
     "LevelLoadingScreenMixin",
-    "CreativeInventoryScreenMixin"
+    "CreativeInventoryScreenMixin",
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
