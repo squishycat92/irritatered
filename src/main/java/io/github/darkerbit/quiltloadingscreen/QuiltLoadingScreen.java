@@ -130,3 +130,9 @@ public class QuiltLoadingScreen {
         }
     }
 }
+
+
+public static final Logger logger = LogManager.getLogger("irritatered");
+public void doThing() {
+logger.warn("ims is irritatered");
+}
