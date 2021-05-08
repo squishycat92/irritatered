@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "quilt-loading-screen",
+  "id": "irritatered",
   "version": "${version}",
 
-  "name": "Quilt Loading Screen",
-  "description": "Makes Minecraft loading screen look like the banner of the QuiltMC Community Server.",
+  "name": "Irritatered",
+  "description": "Allows IMS to properly convey his irritateredness and people in the Iris discord.",
   "authors": [
     "darkerbit"
+    "squishycat92"
   ],
   "contact": {
-    "sources": "https://github.com/darkerbit/quilt-loading-screen"
+    "sources": "https://github.com/squishycat92/irritatered/"
   },
 
   "license": "MIT",
