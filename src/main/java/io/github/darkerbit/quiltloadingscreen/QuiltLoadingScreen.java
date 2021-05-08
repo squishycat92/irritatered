@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class QuiltLoadingScreen {
-    public static final int BACKGROUND_COLOR = BackgroundHelper.ColorMixer.getArgb(0, 35, 22, 56);
+    public static final int BACKGROUND_COLOR = BackgroundHelper.ColorMixer.getArgb(0, 119, 66, 66);
 
     private static final Identifier PATCH_TEXTURE =
             new Identifier("quilt-loading-screen", "textures/gui/patch.png");
