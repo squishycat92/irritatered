@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class QuiltLoadingScreen {
-    public static final int BACKGROUND_COLOR = BackgroundHelper.ColorMixer.getArgb(0, 119, 66, 66);
+    public static final int BACKGROUND_COLOR = BackgroundHelper.ColorMixer.getArgb(0, 138, 38, 35);
 
     private static final Identifier PATCH_TEXTURE =
             new Identifier("quilt-loading-screen", "textures/gui/patch.png");
@@ -38,8 +38,8 @@ public class QuiltLoadingScreen {
         fallingPatches.add(new FallingPatch(
                 random.nextDouble() * this.client.getWindow().getScaledWidth(), -PATCH_SIZE, 0,
                 (random.nextDouble() - 0.5) * 0.6,
-                random.nextDouble() * 3.0 + 1.0,
-                (random.nextDouble() - 0.5) * 6.0,
+                random.nextDouble() * 6.0 + 1.0,
+                (random.nextDouble() - 0.5) * 12.0,
                 random.nextDouble() / 2 + 0.5,
                 type
         ));
@@ -58,7 +58,7 @@ public class QuiltLoadingScreen {
         if (patchTimer < 0f && !ending) {
             createPatch(random.nextInt(8));
 
-            patchTimer = random.nextFloat();
+            patchTimer = random.nextFloat() / 4;
         }
     }
 
